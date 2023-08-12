@@ -35,7 +35,7 @@ string site-url: $common.site-url
 -- ftd.ui list page.footer:
 
 -- footer.fastn-footer:
-copyright: Copyright © 2023 - sarvom.github.io/fastnfolio
+copyright: Copyright © 2023 - fastnfolio
 site-logo: $common.fastn-logo
 powered-by-text: Powered by
 powered-by-link: https://fastn.com/

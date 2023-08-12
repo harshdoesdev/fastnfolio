@@ -1,14 +1,14 @@
 -- import: fastn
 
--- fastn.package: sarvom.github.io/fastnfolio
-favicon: /-/sarvom.github.io/fastnfolio/favicon.ico
+-- fastn.package: fastnfolio
+favicon: /-/fastnfolio/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: sarvom.github.io/fastnfolio/FASTN/ds
--- fastn.auto-import: sarvom.github.io/fastnfolio/assets
+-- fastn.auto-import: fastnfolio/FASTN/ds
+-- fastn.auto-import: fastnfolio/assets
 -- fastn.auto-import: doc-site
 
 -- fastn.sitemap:

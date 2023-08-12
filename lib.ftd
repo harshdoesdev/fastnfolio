@@ -1,7 +1,6 @@
--- import: sarvom.github.io/fastnfolio/common
--- import: sarvom.github.io/fastnfolio/common/button
--- import: sarvom.github.io/fastnfolio/web-components
--- import: sarvom.github.io/holy-angel-typography 
+-- import: doc-site/common
+-- import: fastnfolio/web-components
+;; -- import: sarvom.github.io/holy-angel-typography 
 
 
 -- component page:
@@ -22,7 +21,6 @@ children c:
 
 -- ftd.column:
 width: fill-container
-types: $holy-angel-typography.types
 background.linear-gradient: $lg
 
 -- navbar: 
@@ -201,9 +199,9 @@ margin-top.px: 24
 spacing.fixed.px: 8
 align-content: center
 
--- button.button-2: $navbar-mobile.cta-button-1
-link: https://github.com/Trizwit/fastnfoliotemp
-$on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
+;; -- button.button-2: $navbar-mobile.cta-button-1
+;; link: https://github.com/Trizwit/fastnfoliotemp
+;; $on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
 
 -- end: ftd.row
 
@@ -338,8 +336,8 @@ align-self: center
 align-content: right
 margin-right.vw: 4
 
--- button.button-5: $navbar-desktop.cta-button-1
-link: https://github.com/Trizwit/fastnfoliotemp
+;; -- button.button-5: $navbar-desktop.cta-button-1
+;; link: https://github.com/Trizwit/fastnfoliotemp
 
 -- end: ftd.row
 
@@ -543,8 +541,8 @@ color: #ffac1d
 
 -- end: ftd.row
 
--- button.button-3: $hero.cta-button-1
-link: https://github.com/Trizwit/fastnfoliotemp
+;; -- button.button-3: $hero.cta-button-1
+;; link: https://github.com/Trizwit/fastnfoliotemp
 
 -- end: ftd.column
 
@@ -631,8 +629,8 @@ color: #faac1d
 
 -- end: ftd.row
 
--- button.button-4: $hero.cta-button-1
-link: https://github.com/Trizwit/fastnfoliotemp
+;; -- button.button-4: $hero.cta-button-1
+;; link: https://github.com/Trizwit/fastnfoliotemp
 
 -- end: ftd.column
 
@@ -991,7 +989,7 @@ align-content: center
 padding.px: 16
 $on-mouse-enter$: $ftd.set-bool($a = $sponsor-card.is-active, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $sponsor-card.is-active, v = false)
-shadow: $common.box
+;; shadow: $common.box
 
 -- ftd.image:
 src: $sponsor-card.logo
