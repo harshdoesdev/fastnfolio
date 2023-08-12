@@ -1,40 +1,113 @@
--- ds.page: Welcome to doc-site
+-- import: sarvom.github.io/fastnfolio/lib
+-- import: sarvom.github.io/fastnfolio/images
+-- import: sarvom.github.io/fastnfolio/web-components
+
+-- lib.page:
+cta-text-1: Home
+cta-text-2: About
+cta-text-3: Campus Partners
+cta-text-4: Contribute
+cta-button-1: Participate
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.hero: FASTNfolio
+text-1: August 15 - September 15 2023
+cta-button-1: Participate
+
+Craft your digital identity
+
+-- lib.about: About FASTNfolio
+pic: $assets.files.images.fastnfolio-logo.png
+
+FASTNfolio, will be a one-of-a-kind event that motivates tech enthusiasts to create 
+impressive portfolio websites using the FASTN language. This campaign aims to inspire
+creativity, foster learning, and showcase the immense potential of FASTN in shaping the 
+future of web development.
+
+FASTN is very impressive in creating content centric static websites, FASTNfolio offers an 
+exceptional opportunity for participants to build captivating portfolio websites. For 
+anyone in their early-career stage, having a well-crafted portfolio is invaluable for 
+gaining recognition and career advancement
+
+-- lib.container-with-title: Why FASTNfolio?
+
+-- lib.image-with-content: Showcase Skills and Creativity
+pic: $assets.files.images.community.png
+number: 01
+
+FASTNfolio provides a platform to showcase the best work and skills, attracting potential 
+employers and clients.
+
+-- lib.image-with-content: Opportunity to Learn FASTN:
+pic: $assets.files.images.community.png
+number: 02
+
+Participants can explore the unique features of FASTN and understand its advantages in web 
+development, gaining a competitive edge.
+
+-- lib.image-with-content: Fast and Functional Development
+pic: $assets.files.images.community.png
+number: 03
+
+With the support of the fastnui.trizwit.com component library, developers can efficiently 
+incorporate pre-built components, saving time while ensuring high-quality design and 
+functionality.
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- end: lib.container-with-title
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- lib.sponsor-section: Organized by
 
--- ds.h3: 🚀 Fast Track 
+-- lib.sponsor-card: 
+logo: $assets.files.images.Trizwit.png
+ 
+-- end: lib.sponsor-section
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- lib.sponsor-section: Campus Partners
 
--- ds.h3: 🌟 Whats next?
+-- lib.sponsor-card: GEC Palakkad
+logo: $assets.files.images.fastnfolio-logo.png
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- lib.sponsor-card: LBSITW
+logo: $assets.files.images.Trizwit.png
 
--- ds.h3: 👀 Want to learn more?
+-- lib.sponsor-card: MACE
+logo: $assets.files.images.fastnfolio-logo.png
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- lib.sponsor-card: GECT 
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: Tinkerhub SNGCE
+logo: $assets.files.images.tinkerhub-sngce.png
+
+-- lib.sponsor-card: MEA
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: MES
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: SJCET
+logo: $assets.files.images.Trizwit.png
+
+-- lib.sponsor-card: GECI
+logo: $assets.files.images.fastnfolio-logo.png
+ 
+-- end: lib.sponsor-section
+
+-- lib.container-with-title: How to contribute?
+
+-- ftd.iframe:
+youtube: https://youtu.be/3ardRc2R-OY
+width: fill-container
+height.fixed.px if { ftd.device == "desktop" }: 768
+padding-horizontal.px if { ftd.device == "desktop" }: 120
+padding-horizontal.px if { ftd.device == "mobile" }: 24
+margin-bottom.px: 64
+
+-- end: lib.container-with-title
 
 
--- ds.h3: 🎯 Used by?
+-- end: lib.page
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
