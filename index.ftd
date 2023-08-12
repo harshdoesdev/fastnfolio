@@ -1,6 +1,6 @@
--- import: sarvom.github.io/fastnfolio/lib
--- import: sarvom.github.io/fastnfolio/images
--- import: sarvom.github.io/fastnfolio/web-components
+-- import: fastnfolio/lib
+-- import: fastnfolio/images
+-- import: fastnfolio/web-components
 
 -- lib.page:
 cta-text-1: Home
